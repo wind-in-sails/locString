@@ -3,10 +3,14 @@
 "userName" = "Имя пользователя";
 
 /*city of origin*/
-"cityName" = "Город";
+"cityName" = "Родной Город";
 
 /*the user occupation*/
 "occupation" = "Профессия";
+
+/*birth date*/
+/*the settings screen*/
+"dateOfBerth" = "Дата рождения";
 
 /*birth date
 the settings screen*/

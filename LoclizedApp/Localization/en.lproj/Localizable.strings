@@ -12,5 +12,9 @@
 /*the settings screen*/
 "dateOfBerth" = "Birth date";
 
-/* are you happy */
+/*birth date
+the settings screen*/
+"dateOfBerth" = "Birth date";
+
+/*are you happy*/
 "areYouHappy" = "Are you happy?";

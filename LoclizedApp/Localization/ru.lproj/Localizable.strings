@@ -11,3 +11,10 @@
 /*birth date*/
 /*the settings screen*/
 "dateOfBerth" = "Дата рождения";
+
+/*birth date
+the settings screen*/
+"dateOfBerth" = "Дата рождения";
+
+/*are you happy*/
+"areYouHappy" = "Вы счастливы?";

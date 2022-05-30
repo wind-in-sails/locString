@@ -8,6 +8,10 @@
 /*the user occupation*/
 "occupation" = "Occupation";
 
+/*birth date*/
+/*the settings screen*/
+"dateOfBerth" = "Birth date";
+
 /*birth date
 the settings screen*/
 "dateOfBerth" = "Birth date";

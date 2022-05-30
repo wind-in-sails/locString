@@ -8,10 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var city: UILabel!
+    @IBOutlet weak var occupation: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        name.text = Localization.MainView.userName
+        city.text = Localization.MainView.city
+        occupation.text = Localization.MainView.occupation
     }
 
 

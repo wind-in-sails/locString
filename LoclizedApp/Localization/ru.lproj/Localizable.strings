@@ -1,0 +1,13 @@
+
+/*User name*/
+"userName" = "Имя пользователя";
+
+/*city of origin*/
+"cityName" = "Город";
+
+/*the user occupation*/
+"occupation" = "Профессия";
+
+/*birth date*/
+/*the settings screen*/
+"dateOfBerth" = "Дата рождения";

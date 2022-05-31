@@ -8,9 +8,6 @@
 /*the user occupation*/
 "occupation" = "Профессия";
 
-/*the settings screen*/
-"dateOfBerth" = "Дата рождения";
-
 /*are you happy*/
 "areYouHappy" = "Вы счастливы?";
 
@@ -19,3 +16,7 @@
 
 /*new parameter*/
 "newParameter" = "Новый параметр";
+
+/*birth date
+the settings screen*/
+"dateOfBerth" = "";

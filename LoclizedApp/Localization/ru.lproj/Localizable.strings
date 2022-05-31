@@ -12,12 +12,11 @@
 /*the settings screen*/
 "dateOfBerth" = "Дата рождения";
 
-/*birth date
-the settings screen*/
-"dateOfBerth" = "Дата рождения";
-
 /*are you happy*/
 "areYouHappy" = "Вы счастливы?";
 
 /*we display it whenever no specific error message available*/
-"generalErrorMessage" = "";
+"generalErrorMessage" = "Произошла ошибка в момент обработки вашего запроса";
+
+/*new parameter*/
+"newParameter" = "Новый параметр";

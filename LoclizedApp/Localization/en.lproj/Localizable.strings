@@ -12,15 +12,11 @@
 /*the settings screen*/
 "dateOfBerth" = "Birth date";
 
-/*birth date
-the settings screen*/
-"dateOfBerth" = "Birth date";
-
 /*are you happy*/
 "areYouHappy" = "Are you happy?";
 
 /*we display it whenever no specific error message available*/
-"generalErrorMessage" = "";
+"generalErrorMessage" = "The app experienced an error while was processing the request";
 
 /*new parameter*/
-"newParameter" = "";
+"newParameter" = "New parameter";

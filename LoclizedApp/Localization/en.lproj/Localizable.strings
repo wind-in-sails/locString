@@ -21,3 +21,6 @@ the settings screen*/
 
 /*we display it whenever no specific error message available*/
 "generalErrorMessage" = "";
+
+/*new parameter*/
+"newParameter" = "";

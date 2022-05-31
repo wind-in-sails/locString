@@ -18,3 +18,6 @@ the settings screen*/
 
 /*are you happy*/
 "areYouHappy" = "Вы счастливы?";
+
+/*we display it whenever no specific error message available*/
+"generalErrorMessage" = "";

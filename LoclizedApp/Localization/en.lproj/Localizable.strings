@@ -19,3 +19,6 @@
 
 /*birth date the settings screen*/
 "dateOfBerth" = "Birth Date";
+
+/*we added a new term here*/
+"aNewTerm" = "The new term";

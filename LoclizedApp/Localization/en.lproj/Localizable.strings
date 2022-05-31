@@ -8,9 +8,6 @@
 /*the user occupation*/
 "occupation" = "Occupation";
 
-/*the settings screen*/
-"dateOfBerth" = "Birth date";
-
 /*are you happy*/
 "areYouHappy" = "Are you happy?";
 
@@ -19,3 +16,7 @@
 
 /*new parameter*/
 "newParameter" = "New parameter";
+
+/*birth date
+the settings screen*/
+"dateOfBerth" = "";

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1F7DE42B06DF14E3BD5D24 /* Pods_LoclizedApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B984287B246FD28D6C1979F9 /* Pods_LoclizedApp.framework */; };
+		A5117B1928478C44002A2C84 /* Generated+Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5117B1828478C44002A2C84 /* Generated+Strings.swift */; };
 		A5326F0C28474BF00043114C /* Localizable_Error.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5326F0E28474BF00043114C /* Localizable_Error.strings */; };
 		A5C543C42844CE8E000E5B52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C543C32844CE8E000E5B52 /* AppDelegate.swift */; };
 		A5C543C62844CE8E000E5B52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C543C52844CE8E000E5B52 /* SceneDelegate.swift */; };
@@ -19,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		727FF6667C62F2632110E0C1 /* Pods-LoclizedApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoclizedApp.debug.xcconfig"; path = "Target Support Files/Pods-LoclizedApp/Pods-LoclizedApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8D983309AAEE7746CC79591C /* Pods-LoclizedApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoclizedApp.release.xcconfig"; path = "Target Support Files/Pods-LoclizedApp/Pods-LoclizedApp.release.xcconfig"; sourceTree = "<group>"; };
+		A5117B1828478C44002A2C84 /* Generated+Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Generated+Strings.swift"; sourceTree = "<group>"; };
 		A5326F0D28474BF00043114C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable_Error.strings; sourceTree = "<group>"; };
 		A5C543C02844CE8E000E5B52 /* LoclizedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoclizedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C543C32844CE8E000E5B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +36,7 @@
 		A5C543DB2844D08D000E5B52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A5C543DF2844D0EE000E5B52 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A5C543E02844D6EC000E5B52 /* LocalizedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
+		B984287B246FD28D6C1979F9 /* Pods_LoclizedApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoclizedApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,17 +44,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1F7DE42B06DF14E3BD5D24 /* Pods_LoclizedApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5406BEB7EA192B37ECDC610E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B984287B246FD28D6C1979F9 /* Pods_LoclizedApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7940D7556CB230A5160D59E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				727FF6667C62F2632110E0C1 /* Pods-LoclizedApp.debug.xcconfig */,
+				8D983309AAEE7746CC79591C /* Pods-LoclizedApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5117B1728478C44002A2C84 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				A5117B1828478C44002A2C84 /* Generated+Strings.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 		A5C543B72844CE8E000E5B52 = {
 			isa = PBXGroup;
 			children = (
 				A5C543C22844CE8E000E5B52 /* LoclizedApp */,
 				A5C543C12844CE8E000E5B52 /* Products */,
+				7940D7556CB230A5160D59E1 /* Pods */,
+				5406BEB7EA192B37ECDC610E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +97,7 @@
 		A5C543C22844CE8E000E5B52 /* LoclizedApp */ = {
 			isa = PBXGroup;
 			children = (
+				A5117B1728478C44002A2C84 /* Generated */,
 				A5C543D72844CFE6000E5B52 /* Localization */,
 				A5C543C32844CE8E000E5B52 /* AppDelegate.swift */,
 				A5C543C52844CE8E000E5B52 /* SceneDelegate.swift */,
@@ -92,6 +127,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5C543D42844CE8E000E5B52 /* Build configuration list for PBXNativeTarget "LoclizedApp" */;
 			buildPhases = (
+				3FF90E1C0EC6CCA876CC6574 /* [CP] Check Pods Manifest.lock */,
+				A5117B1328478267002A2C84 /* Run SwiftGen */,
 				A5C543BC2844CE8E000E5B52 /* Sources */,
 				A5C543BD2844CE8E000E5B52 /* Frameworks */,
 				A5C543BE2844CE8E000E5B52 /* Resources */,
@@ -154,6 +191,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FF90E1C0EC6CCA876CC6574 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoclizedApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5117B1328478267002A2C84 /* Run SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftGen";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5C543BC2844CE8E000E5B52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -161,6 +241,7 @@
 			files = (
 				A5C543C82844CE8E000E5B52 /* ViewController.swift in Sources */,
 				A5C543C42844CE8E000E5B52 /* AppDelegate.swift in Sources */,
+				A5117B1928478C44002A2C84 /* Generated+Strings.swift in Sources */,
 				A5C543E12844D6EC000E5B52 /* LocalizedStrings.swift in Sources */,
 				A5C543C62844CE8E000E5B52 /* SceneDelegate.swift in Sources */,
 			);
@@ -325,6 +406,7 @@
 		};
 		A5C543D52844CE8E000E5B52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727FF6667C62F2632110E0C1 /* Pods-LoclizedApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -353,6 +435,7 @@
 		};
 		A5C543D62844CE8E000E5B52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D983309AAEE7746CC79591C /* Pods-LoclizedApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

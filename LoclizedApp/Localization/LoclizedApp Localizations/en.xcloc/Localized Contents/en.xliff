@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="LoclizedApp/Base.lproj/Main.storyboard" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.3" build-num="13E113"/>
+    </header>
+    <body>
+      <trans-unit id="AmC-eQ-hhT.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "AmC-eQ-hhT";</note>
+      </trans-unit>
+      <trans-unit id="KS7-q9-5Nd.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "KS7-q9-5Nd";</note>
+      </trans-unit>
+      <trans-unit id="VJP-8y-ObD.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "VJP-8y-ObD";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LoclizedApp/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.3" build-num="13E113"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>LoclizedApp</source>
+        <target>LoclizedApp</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LoclizedApp/Localization/en.lproj/Localizable_Error.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.3" build-num="13E113"/>
+    </header>
+    <body>
+      <trans-unit id="new" xml:space="preserve">
+        <source>NEW</source>
+        <target>NEW</target>
+        <note>new</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LoclizedApp/Localization/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.3" build-num="13E113"/>
+    </header>
+    <body>
+      <trans-unit id="aNewTerm" xml:space="preserve">
+        <source>The new term</source>
+        <target>The new term</target>
+        <note>we added a new term here</note>
+      </trans-unit>
+      <trans-unit id="areYouHappy" xml:space="preserve">
+        <source>Are you happy?</source>
+        <target>Are you happy?</target>
+        <note>are you happy</note>
+      </trans-unit>
+      <trans-unit id="cityName" xml:space="preserve">
+        <source>City</source>
+        <target>City</target>
+        <note>city of origin</note>
+      </trans-unit>
+      <trans-unit id="dateOfBerth" xml:space="preserve">
+        <source>Birth Date</source>
+        <target>Birth Date</target>
+        <note>birth date
+the settings screen</note>
+      </trans-unit>
+      <trans-unit id="generalErrorMessage" xml:space="preserve">
+        <source>The app experienced an error while was processing the request</source>
+        <target>The app experienced an error while was processing the request</target>
+        <note>we display it whenever no specific error message available</note>
+      </trans-unit>
+      <trans-unit id="newParameter" xml:space="preserve">
+        <source>New parameter</source>
+        <target>New parameter</target>
+        <note>new parameter</note>
+      </trans-unit>
+      <trans-unit id="occupation" xml:space="preserve">
+        <source>Occupation</source>
+        <target>Occupation</target>
+        <note>the user occupation</note>
+      </trans-unit>
+      <trans-unit id="userName" xml:space="preserve">
+        <source>User name</source>
+        <target>User name</target>
+        <note>User name</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

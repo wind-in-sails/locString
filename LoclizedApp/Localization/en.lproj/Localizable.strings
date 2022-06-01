@@ -1,25 +1,25 @@
 
 /*User name*/
-"userName" = "User name";
+"signIn.userName" = "User name";
 
 /*city of origin*/
-"cityName" = "City";
+"signIn.cityName" = "City";
 
 /*the user occupation*/
-"occupation" = "Occupation";
+"signIn.occupation" = "Occupation";
 
 /*are you happy*/
-"areYouHappy" = "Are you happy?";
+"other.areYouHappy" = "Are you happy?";
 
 /*we display it whenever no specific error message available*/
-"generalErrorMessage" = "The app experienced an error while was processing the request";
+"other.generalErrorMessage" = "The app experienced an error while was processing the request";
 
 /*new parameter*/
-"newParameter" = "New parameter";
+"other.newParameter" = "New parameter";
 
 /*birth date
 the settings screen*/
-"dateOfBerth" = "Birth Date";
+"other.dateOfBerth" = "Birth Date";
 
 /*we added a new term here*/
-"aNewTerm" = "The new term";
+"other.aNewTerm" = "The new term";

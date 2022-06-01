@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5326F0C28474BF00043114C /* Localizable_Error.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5326F0E28474BF00043114C /* Localizable_Error.strings */; };
 		A5C543C42844CE8E000E5B52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C543C32844CE8E000E5B52 /* AppDelegate.swift */; };
 		A5C543C62844CE8E000E5B52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C543C52844CE8E000E5B52 /* SceneDelegate.swift */; };
 		A5C543C82844CE8E000E5B52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C543C72844CE8E000E5B52 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5326F0D28474BF00043114C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable_Error.strings; sourceTree = "<group>"; };
 		A5C543C02844CE8E000E5B52 /* LoclizedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoclizedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C543C32844CE8E000E5B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5C543C52844CE8E000E5B52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				A5C543E02844D6EC000E5B52 /* LocalizedStrings.swift */,
 				A5C543DC2844D08D000E5B52 /* Localizable.strings */,
+				A5326F0E28474BF00043114C /* Localizable_Error.strings */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				A5C543DA2844D08D000E5B52 /* Localizable.strings in Resources */,
 				A5C543CD2844CE8E000E5B52 /* Assets.xcassets in Resources */,
 				A5C543CB2844CE8E000E5B52 /* Main.storyboard in Resources */,
+				A5326F0C28474BF00043114C /* Localizable_Error.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +169,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A5326F0E28474BF00043114C /* Localizable_Error.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5326F0D28474BF00043114C /* en */,
+			);
+			name = Localizable_Error.strings;
+			sourceTree = "<group>";
+		};
 		A5C543C92844CE8E000E5B52 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

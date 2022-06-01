@@ -17,5 +17,9 @@
 /*new parameter*/
 "newParameter" = "Новый параметр";
 
-/*birth date the settings screen*/
+/*birth date
+the settings screen*/
 "dateOfBerth" = "Дата рождения";
+
+/*we added a new term here*/
+"aNewTerm" = "Новое понятие";

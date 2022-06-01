@@ -1,25 +1,25 @@
 
 /*User name*/
-"userName" = "Имя пользователя";
+"signIn.userName" = "Имя пользователя";
 
 /*city of origin*/
-"cityName" = "Родной Город";
+"signIn.cityName" = "Родной Город";
 
 /*the user occupation*/
-"occupation" = "Профессия";
+"signIn.occupation" = "Профессия";
 
 /*are you happy*/
-"areYouHappy" = "Вы счастливы?";
+"other.areYouHappy" = "Вы счастливы?";
 
 /*we display it whenever no specific error message available*/
-"generalErrorMessage" = "Произошла ошибка в момент обработки вашего запроса";
+"other.generalErrorMessage" = "Произошла ошибка в момент обработки вашего запроса";
 
 /*new parameter*/
-"newParameter" = "Новый параметр";
+"other.newParameter" = "Новый параметр";
 
 /*birth date
 the settings screen*/
-"dateOfBerth" = "Дата рождения";
+"other.dateOfBerth" = "Дата рождения";
 
 /*we added a new term here*/
-"aNewTerm" = "Новое понятие";
+"other.aNewTerm" = "Новое понятие";

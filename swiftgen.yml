@@ -1,5 +1,6 @@
 input_dir: LoclizedApp/
-output_dir: LoclizedApp/Generated/
+output_dir: LoclizedApp/Supporting Files/Generated/
+
 strings:
   inputs:
     - Localization/en.lproj
@@ -9,4 +10,5 @@ strings:
       params:
         enumName: Strings
         publicAccess: true
+        forceFileNameEnum: false
       output: Generated+Strings.swift

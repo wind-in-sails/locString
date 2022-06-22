@@ -17,9 +17,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        name.text = Localization.MainView.userName
-        city.text = Strings.Localizable.SignIn.userName
-        occupation.text = Localization.MainView.occupation
+        name.text = Strings.SignIn.userName
+        city.text = Strings.SignIn.userName
+        occupation.text = Strings.SignIn.occupation
     }
 
 

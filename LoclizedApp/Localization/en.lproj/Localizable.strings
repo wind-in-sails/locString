@@ -29,6 +29,6 @@ the settings screen*/
 
 /*Infrastructure.Document*/
 "Document.Error.documentCannotBeShared" = "This document cannot be shared.";
-"Document.Error.thereIsNoImagesInDocumentThusItCantBeExported" = "This document has no images yet. A document can only be exported if it has images.";
+"Document.Error.thereIsNoImagesInDocumentThusItCantBeExported" = "This document has no images yet. A document can only be exported if it has images as Images.";
 "Document.Error.documentCantBeExportedSomePagesHasNotBeenDownloadedYet" = "Document cannot be exported. Some pages of the document have not been downloaded yet.";
 "Document.Error.frozenDoumentAlertMessage" = "This Document has been saved into your QuickBooks and can no longer be updated or deleted.";
